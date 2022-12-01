@@ -1,0 +1,9 @@
+{
+  "short_name": "App",
+  "name": "App name",
+  "description": "App description",
+  "start_url": "/",
+  "background_color": "#fff",
+  "scope": "/",
+  "theme_color": "#ffd401"
+}
