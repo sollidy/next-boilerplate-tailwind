@@ -7,3 +7,8 @@
 - Sort imports
 - Seo meta component
 - Layout component
+
+### Need to change
+
+- manifest.json
+- config/constants.ts

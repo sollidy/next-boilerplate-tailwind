@@ -1,2 +1,3 @@
-export const siteName = 'Site name'
+import { siteName } from './constants'
+
 export const mergeTitle = (title: string) => `${title} | ${siteName}`

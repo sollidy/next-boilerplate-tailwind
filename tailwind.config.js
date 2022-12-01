@@ -1,6 +1,6 @@
 const colors = require('tailwindcss/colors')
 const plugin = require('tailwindcss/plugin')
-const primary = '#dc3545'
+const primary = '#ffd401'
 
 module.exports = {
   content: [
@@ -13,9 +13,9 @@ module.exports = {
       white: colors.white,
       black: colors.black,
       transparent: colors.transparent,
-      blue: {
-        100: '#e3ebf3',
-        300: '#d9dae8',
+      yellow: {
+        400: '#ffdd33',
+        500: '#ffd401',
       },
       gray: {
         200: '#f5f5f5',
@@ -27,11 +27,6 @@ module.exports = {
         800: '#242529',
         900: '#191b22',
         950: '#101215',
-      },
-      blue: {
-        100: '#f2f6fa',
-        200: '#edf2f7',
-        300: '#bfd0e0',
       },
     },
     extend: {
@@ -45,12 +40,7 @@ module.exports = {
         DEFAULT: 'ease-in-out',
       },
       transitionDuration: {
-        DEFAULT: '300ms',
-      },
-      zIndex: {
-        1: '1',
-        2: '2',
-        3: '3',
+        DEFAULT: '200ms',
       },
       keyframes: {
         fade: {
@@ -70,19 +60,10 @@ module.exports = {
             transform: 'scale(1)',
           },
         },
-        pulsing: {
-          '0%': {
-            boxShadow: '0 0 0 -3px #ffffff00, 0 0 0 0 #dc3545',
-          },
-          '100%': {
-            boxShadow: '0 0 0 15px #ffffff00, 0 0 0 18px #ffffff00',
-          },
-        },
       },
       animation: {
         fade: 'fade .35s ease-in-out',
         scaleIn: 'scaleIn .35s ease-in-out',
-        pulse: 'pulsing 1.5s ease-out 1s infinite forwards',
       },
     },
   },
@@ -101,16 +82,16 @@ module.exports = {
           fontSize: '18px',
           fontWeight: 'bold',
           userSelect: 'none',
-          transition: 'background-color .3s ease-in-out',
+          transition: 'background-color .2s ease-in-out',
           '@media (hover: hover)': {
             '&:hover': {
-              backgroundColor: '#e25664',
+              backgroundColor: theme('colors.yellow.400'),
             },
           },
           '@media screen and (max-width: 430px)': {
             transitionProperty: 'none',
             '&:active': {
-              backgroundColor: '#e25664',
+              backgroundColor: theme('colors.yellow.400'),
             },
           },
         },
