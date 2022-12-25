@@ -8,6 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "checkPretty": "prettier --check \"./**/*.{js,ts,tsx,scss,json}\"",
     "pretty": "prettier --write \"./**/*.{js,ts,tsx,scss,json}\""
   },
   "dependencies": {
