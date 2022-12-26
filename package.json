@@ -8,29 +8,32 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "checkPretty": "prettier --check \"./**/*.{js,ts,tsx,scss,json}\"",
-    "pretty": "prettier --write \"./**/*.{js,ts,tsx,scss,json}\""
+    "lint-fix": "next lint --fix",
+    "checkPretty": "prettier --check \"./**/*.{js,ts,tsx,scss,json}\""
   },
   "dependencies": {
-    "@types/node": "18.11.17",
-    "@types/react": "18.0.26",
-    "@types/react-dom": "18.0.10",
     "classnames": "^2.3.2",
-    "eslint": "8.30.0",
-    "eslint-config-next": "13.1.1",
     "next": "13.1.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "4.9.4"
+    "sharp": "^0.31.3"
   },
   "devDependencies": {
+    "@types/node": "18.11.17",
+    "@types/react": "18.0.26",
+    "@types/react-dom": "18.0.10",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/forms": "^0.5.3",
     "@trivago/prettier-plugin-sort-imports": "^4.0.0",
     "autoprefixer": "^10.4.13",
+    "eslint": "8.30.0",
+    "eslint-config-next": "13.1.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "postcss": "^8.4.20",
     "prettier-plugin-tailwindcss": "^0.2.1",
     "sass": "^1.57.1",
-    "tailwindcss": "^3.2.4"
+    "tailwindcss": "^3.2.4",
+    "typescript": "4.9.4"
   }
 }
