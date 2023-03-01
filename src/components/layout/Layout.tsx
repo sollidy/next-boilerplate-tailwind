@@ -10,12 +10,10 @@ export const Layout: FC<{ children: ReactNode }> = ({ children }) => {
   }, [children])
 
   return (
-    <>
-      <div className={styles.layout}>
-        <div ref={ref} className={styles.main}>
-          {children}
-        </div>
+    <div className={styles.layout}>
+      <div ref={ref} className={styles.main}>
+        {children}
       </div>
-    </>
+    </div>
   )
 }

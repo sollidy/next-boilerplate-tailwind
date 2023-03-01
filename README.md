@@ -7,6 +7,7 @@
 - Sort imports
 - Seo meta component
 - Layout component
+- Import svg as Element
 
 ### Need to change
 

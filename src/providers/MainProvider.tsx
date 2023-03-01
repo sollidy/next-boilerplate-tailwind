@@ -1,6 +1,5 @@
+import { Layout } from 'components/layout/Layout'
 import { FC, ReactNode } from 'react'
-
-import { Layout } from '@/components/layout/Layout'
 
 import { HeadProvider } from './HeadProvider/HeadProvider'
 

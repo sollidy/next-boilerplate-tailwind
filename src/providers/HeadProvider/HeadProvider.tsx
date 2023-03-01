@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { FC, ReactNode } from 'react'
 
-import { bgColor } from '@/config/constants'
+import { bgColor } from '@config/constants'
 
 export const HeadProvider: FC<{ children: ReactNode }> = ({ children }) => {
   return (
