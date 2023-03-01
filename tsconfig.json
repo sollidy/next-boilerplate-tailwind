@@ -22,7 +22,8 @@
       "@assets/*": ["assets/*"],
       "@config/*": ["config/*"],
       "@hooks/*": ["hooks/*"],
-      "@utils/*": ["utils/*"],
+      "@utils": ["utils/index"],
+      "@utils/*": ["utils/*", "utils/index"],
       "@providers/*": ["providers/*"]
     }
   },

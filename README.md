@@ -5,6 +5,7 @@
 ### What includes
 
 - Sort imports
+- Sort Tailwind CSS classes
 - Seo meta component
 - Layout component
 - Import svg as Element
