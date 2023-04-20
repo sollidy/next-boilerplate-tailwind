@@ -8,34 +8,35 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "lint-fix": "next lint --fix",
-    "checkPretty": "prettier --check \"./**/*.{js,ts,tsx,scss,json}\"",
-    "check-types": "tsc --noemit"
+    "lint:types": "tsc --noemit",
+    "lint:pretty": "prettier --check \"./**/*.{js,ts,tsx,scss,json}\"",
+    "fix:lint": "next lint --fix",
+    "fix:prettier": "prettier --write \"./**/*.{js,ts,tsx,scss,json}\""
   },
   "dependencies": {
     "classnames": "^2.3.2",
-    "next": "13.2.3",
+    "next": "13.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "sharp": "^0.31.3"
+    "sharp": "^0.32.0"
   },
   "devDependencies": {
-    "@svgr/webpack": "^6.5.1",
+    "@svgr/webpack": "^7.0.0",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/forms": "^0.5.3",
     "@trivago/prettier-plugin-sort-imports": "^4.1.1",
-    "@types/node": "18.14.2",
-    "@types/react": "18.0.28",
+    "@types/node": "18.15.12",
+    "@types/react": "18.0.37",
     "@types/react-dom": "18.0.11",
-    "autoprefixer": "^10.4.13",
-    "eslint": "8.35.0",
-    "eslint-config-next": "13.2.3",
-    "eslint-config-prettier": "^8.6.0",
+    "autoprefixer": "^10.4.14",
+    "eslint": "8.38.0",
+    "eslint-config-next": "13.3.0",
+    "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "postcss": "^8.4.21",
-    "prettier-plugin-tailwindcss": "^0.2.3",
-    "sass": "^1.58.3",
-    "tailwindcss": "^3.2.7",
-    "typescript": "4.9.5"
+    "postcss": "^8.4.23",
+    "prettier-plugin-tailwindcss": "^0.2.7",
+    "sass": "^1.62.0",
+    "tailwindcss": "^3.3.1",
+    "typescript": "5.0.4"
   }
 }
